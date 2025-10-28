@@ -9,7 +9,7 @@ public class CheatStrategyDemo {
        // additional data so they must be implemented as inner classes so they can access it
        class Cheat implements Strategy
        {
-           @override
+           @Override
                public String getMove(String playerMove)
                {
                    String computerMove = "";

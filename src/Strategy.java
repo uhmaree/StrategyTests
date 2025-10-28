@@ -1,4 +1,3 @@
-public interface Strategy
-{
-    public String getMove(String playerMove);
+public interface Strategy {
+    String getMove(String playerMove);
 }
